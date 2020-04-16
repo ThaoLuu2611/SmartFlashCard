@@ -1,4 +1,4 @@
-# flutterapp
+# flutter application for design flash card
 
 A new Flutter application.
 
