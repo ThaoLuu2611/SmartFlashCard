@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "171431900179",
+    "firebase_url": "https://smartflashcard-ef193.firebaseio.com",
+    "project_id": "smartflashcard-ef193",
+    "storage_bucket": "smartflashcard-ef193.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171431900179:android:abb07d993ce1d9ce263be6",
+        "android_client_info": {
+          "package_name": "thao.luu.smartflashcard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171431900179-caro8ejlfjt62sajafjbf095999no8ap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYr9c0ZfcUYIscZpc3ZM8LYIhWs7M6sQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171431900179-caro8ejlfjt62sajafjbf095999no8ap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

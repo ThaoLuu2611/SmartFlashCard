@@ -1,20 +1,29 @@
+
 buildscript {
     ext.kotlin_version = '1.3.50'
     repositories {
         google()
         jcenter()
+        maven {
+            url 'https://maven.fabric.io/public'
+        }
     }
 
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+       // classpath 'com.google.firebase:firebase-crashlytics-gradle:2.0.0-beta04'
+        classpath 'com.google.gms:google-services:4.3.0'
+        classpath 'io.fabric.tools:gradle:1.26.1'
     }
 }
 
 allprojects {
     repositories {
         google()
+        maven{ url 'https://maven.google.com'}
         jcenter()
+
     }
 }
 
@@ -29,3 +38,6 @@ subprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+apply plugin: 'io.fabric'
+apply plugin: 'com.google.gms.google-services'
